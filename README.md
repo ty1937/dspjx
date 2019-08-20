@@ -54,7 +54,7 @@ https://www.helloty.cn/api/jx
 ```
 
 ###### 接口方式：POST
-###### 接口Content-Type：application/json;charset=UTF-8
+###### 接口Content-Type：application/x-www-form-urlencoded
 ###### 接口形式：JSON
 
 ###### 本接口参与接口加密的字段为：
