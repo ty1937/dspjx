@@ -59,7 +59,7 @@ https://www.helloty.cn/api/jx
 
 ###### 本接口参与接口加密的字段为：
 ```
-videoPageUrl
+clientId、timestamp、url、type
 ```
 
 ###### 接口入参：
