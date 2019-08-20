@@ -42,6 +42,11 @@ url | 解析视频地址 | 不定| 是
 ```
 将四个参数以字母顺序排序使用&连接，取MD5使用&cc=连接,总体再次MD5
 MD5(clientId=xxx&timestamp=xxx&type=xxx&url=xxx&cc=MD5(clientId=xxx&timestamp=xxx&type=xxx&url=xxx))
+
+提示：
+MD5中文编码为‘UTF-8’，许多开发语言默认‘gb2312’
+标准为：
+https://md5jiami.51240.com/
 ```
 
 
@@ -69,7 +74,7 @@ clientId、timestamp、url、type
 clientId|客户ID|32|是
 timestamp|当前时间戳|10|是
 sign|接口加密值||是
-url | 视频页面地址 ||是
+url | 视频页面地址 （不得出现URL编码符）||是
 type | 视频平台编码||是
 
 ##### 接口示例
