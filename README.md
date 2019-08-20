@@ -74,13 +74,7 @@ type | 视频平台编码||是
 
 ##### 接口示例
 ```
-{
-	"clientId": "DCC5051B51155FB4249758AF1F3EA701",
-	"timestamp": 1565850803,
-	"type": "西瓜视频解析",
-	"url": "https://www.ixigua.com/i6698226996385677832/",
-	"sign": "ebe34e849ce2bbd545c6e3cec7071748"
-}
+clientId=DCC5051B51155FB4249758AF1F3EA701&timestamp=1565850803&type=西瓜视频解析&url=https://www.ixigua.com/i6698226996385677832/&sign=ebe34e849ce2bbd545c6e3cec7071748
 ```
 
 ###### 接口出参：
