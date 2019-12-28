@@ -26,7 +26,7 @@ TikTok| TikTok解析
 映客| 映客解析
 哗哩哗哩| 哗哩哗哩解析
 网易云 | 网易云解析
-UC小视频 |UC小视频
+UC小视频 |UC小视频解析
 
 
 #### 1.2 接口签名算法
@@ -38,13 +38,19 @@ UC小视频 |UC小视频
 ---|---|---|---
 clientId | 客户端密钥| 32 |是
 timestamp | 当前时间戳 | 10 | 是
-type | 解析视频平台 | 不定| 是
+type | 解析视频平台 | 不定| 否
 url | 解析视频地址 | 不定| 是
+
+提示：
+最好带入type字段，不带入会有判断类型，接口返回时间加长！
 
 将这四个参数及**具体接口指定参与排序的字段的值**以如下方式拼接后，取MD5值，即：
 ```
 将四个参数以字母顺序排序使用&连接，取MD5使用&cc=连接,总体再次MD5
+带有type类型：
 MD5(clientId=xxx&timestamp=xxx&type=xxx&url=xxx&cc=MD5(clientId=xxx&timestamp=xxx&type=xxx&url=xxx))
+不带有type类型：
+MD5(clientId=xxx&timestamp=xxx&url=xxx&cc=MD5(clientId=xxx&timestamp=xxx&url=xxx))
 
 提示：
 MD5中文编码为‘UTF-8’，许多开发语言默认‘gb2312’
