@@ -27,6 +27,7 @@ TikTok| TikTok解析
 哗哩哗哩| 哗哩哗哩解析
 网易云 | 网易云解析
 UC小视频 |UC小视频解析
+QQ看点 |QQ看点解析
 
 
 #### 1.2 接口签名算法
@@ -97,8 +98,8 @@ clientId=DCC5051B51155FB4249758AF1F3EA701&timestamp=1565850803&type=西瓜视频
 Status | 处理结果编码 | 字符串 | |是
 msg | 处理结果消息 | 字符串| | 否
 Frequency| 剩余解析次数| 数字 ||是
-VoideBean | 处理结果数据 | 对象 | |成功时是
-VoideBean.voidename| 视频标题 | 字符串| |否
-VoideBean.photo| 视频封面URL| 字符串| |否
-VoideBean.voideurl| 视频文件URL| 字符串| |成功时是
+VideoBean | 处理结果数据 | 对象 | |成功时是
+VideoBean.voidename| 视频标题 | 字符串| |否
+VideoBean.photo| 视频封面URL| 字符串| |否
+VideoBean.voideurl| 视频文件URL| 字符串| |成功时是
 
