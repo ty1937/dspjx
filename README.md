@@ -99,11 +99,11 @@ clientId=DCC5051B51155FB4249758AF1F3EA701&timestamp=1565850803&type=西瓜视频
 ###### 接口出参：
 参数|意义|类型|长度|是否必填
 ---|---|---|---|---
-Status | 处理结果编码 | 字符串 | |是
+status | 处理结果编码 | 字符串 | |是
 msg | 处理结果消息 | 字符串| | 否
-Frequency| 剩余解析次数| 数字 ||是
-VideoBean | 处理结果数据 | 对象 | |成功时是
-VideoBean.voidename| 视频标题 | 字符串| |否
-VideoBean.photo| 视频封面URL| 字符串| |否
-VideoBean.voideurl| 视频文件URL| 字符串| |成功时是
+frequency| 剩余解析次数| 数字 ||是
+videoBean | 处理结果数据 | 对象 | |成功时是
+videoBean.voidename| 视频标题 | 字符串| |否
+videoBean.photo| 视频封面URL| 字符串| |否
+videoBean.voideurl| 视频文件URL| 字符串| |成功时是
 
