@@ -107,3 +107,19 @@ videoBean.voidename| 视频标题 | 字符串| |否
 videoBean.photo| 视频封面URL| 字符串| |否
 videoBean.voideurl| 视频文件URL| 字符串| |成功时是
 
+##### 返回信息
+```
+{
+  "status": 0,
+  "videoBean": {
+    "status": 0,
+    "type": "XG",
+    "videoName": "庞尊向白光莹深情表白，颜爵在一旁呼呼喝水，颜爵你这样容易挨打",
+    "videoUrl": "http://v6-tt.ixigua.com/1ef0c2ac500d9c36a4a78b5052ef9cf7/5f40ec50/video/tos/cn/tos-cn-v-0000/edb9c91d9f2d4575b348a2e334713147/?a=1112&br=1698&bt=849&cr=0&cs=0&dr=3&ds=3&er=&l=202008221655440100190291491223CEC5&lr=&mime_type=video_mp4&qs=13&rc=MzRwbmx0N2RnbTMzaDczM0Apc254O2V3cDl0ZTMzZDM1eWdtaHI1X3FqM25fLS1eLS9zcy0uamhmbjFeYWctLWIxLS06Yw%3D%3D&vl=&vr=",
+    "photo": "http://p3-tt.byteimg.com/tos-cn-p-0000/982580d4535b457e87e61e29d82bf868~tplv-obj.image",
+    "msg": "",
+    "batch": 0,
+    "ip": "0:0:0:0:0:0:0:1"
+  },
+  "frequency": 984
+}```
